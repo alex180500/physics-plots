@@ -3,42 +3,41 @@
 
 # color cycle by Paul Tol https://sronpersonalpages.nl/~pault/
 # blue, red, green, yellow, cyan, purple, grey
-axes.prop_cycle : cycler('color', ['4477AA', 'EE6677', '228833', 'CCBB44', '66CCEE', 'AA3377', 'BBBBBB'])
+axes.prop_cycle: cycler('color', ['4477AA', 'EE6677', '228833', 'CCBB44', '66CCEE', 'AA3377', 'BBBBBB'])
 
 # x axis
-xtick.direction : in
-xtick.major.size : 3
-xtick.major.width : 0.5
-xtick.minor.size : 1.5
-xtick.minor.width : 0.5
-xtick.minor.visible : True
-xtick.top : True
+xtick.direction: in
+xtick.major.size: 3
+xtick.major.width: 0.5
+xtick.minor.size: 1.5
+xtick.minor.width: 0.5
+xtick.minor.visible: True
+xtick.top: True
 
 # y axis
-ytick.direction : in
-ytick.major.size : 3
-ytick.major.width : 0.5
-ytick.minor.size : 1.5
-ytick.minor.width : 0.5
-ytick.minor.visible : True
-ytick.right : True
+ytick.direction: in
+ytick.major.size: 3
+ytick.major.width: 0.5
+ytick.minor.size: 1.5
+ytick.minor.width: 0.5
+ytick.minor.visible: True
+ytick.right: True
 
 # linewidths
-axes.linewidth : 0.5
-grid.linewidth : 0.5
-lines.linewidth : 1.
+axes.linewidth: 0.5
+grid.linewidth: 0.5
+lines.linewidth: 1.
 
 # legend
-legend.frameon : False
+legend.frameon: False
 
 # figure
-figure.figsize : 3.5, 2.625
-savefig.bbox : tight
-savefig.pad_inches : 0.05
+figure.figsize: 4, 3
+figure.
 
 # math and fonts (serif)
-text.usetex : False
-axes.formatter.use_mathtext : True
-font.serif : STIXGeneral
-font.family : serif
-mathtext.fontset : stix
+text.usetex: False
+axes.formatter.use_mathtext: True
+font.serif: STIXGeneral
+font.family: serif
+mathtext.fontset: stix
