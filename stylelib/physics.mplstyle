@@ -33,7 +33,7 @@ legend.frameon: False
 
 # figure
 figure.figsize: 4, 3
-figure.
+figure.autolayout: True
 
 # math and fonts (serif)
 text.usetex: False
