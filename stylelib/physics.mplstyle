@@ -26,14 +26,19 @@ ytick.right: True
 # linewidths
 axes.linewidth: 0.5
 grid.linewidth: 0.5
-lines.linewidth: 1.
+lines.linewidth: 1.8
 
-# legend
+# legend and grid
 legend.frameon: False
+axes.grid: True
+axes.grid.which: major
+grid.alpha: 0.25
 
-# figure
+# figure and saving
 figure.figsize: 4, 3
-figure.autolayout: True
+figure.dpi: 200
+figure.constrained_layout.use: True
+savefig.bbox: tight
 
 # math and fonts (serif)
 text.usetex: False
