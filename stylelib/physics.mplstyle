@@ -35,14 +35,15 @@ axes.grid.which: major
 grid.alpha: 0.25
 
 # figure and saving
-figure.figsize: 4, 3
-figure.dpi: 200
+figure.figsize: 3.5, 2.75
+figure.dpi: 150
 figure.constrained_layout.use: True
 savefig.bbox: tight
+savefig.dpi: 300
 
 # math and fonts (serif)
 text.usetex: False
 axes.formatter.use_mathtext: True
 font.serif: STIXGeneral
 font.family: serif
-mathtext.fontset: stix
+mathtext.fontset: cm
